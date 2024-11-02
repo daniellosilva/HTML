@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header{
+            display: flex;
+            background-color: black;
+            color: white;
+            height: 100px;
+            justify-content: center;
+        }
+        h1 {
+            text-align: center;
+            justify-content: space-between;
+            text-wrap: wrap;
+        }
+        article{
+            margin: 10px;
+            padding: 10px;
+            background-color: aquamarine;
+            flex-direction: column;
+        }
+        section{
+            display: flex;
+            justify-content: space-between;
+        }
+        #secao1 article:nth-child(1){
+            background-color: rgba(128, 0, 0, 0.63);
+        }
+        #secao1 article:nth-child(2){
+            background-color: rgb(104, 46, 46);
+        }
+        #secao1 article:nth-child(3){
+            background-color: rgb(71, 35, 35);
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>FlexBox</h1>
+        </header>
+        <section class="secao" id="secao1">
+            <article class="artigo" id="artigo1">
+                <h2>Artigo 1</h2>
+                <p>Et magnam reprehenderit aut unde voluptas aut omnis harum cum mollitia voluptatem. Ea ullam voluptatem aut mollitia earum id pariatur galisum ut sapiente ullam aut inventore nihil. Sit eveniet dolor aut dolore internos eos natus consectetur sed dolorum obcaecati non dolores repudiandae.</p>
+            </article>
+            <article class="artigo" id="artigo2">
+                <h2>Artigo 2</h2>
+                <p>Et veniam amet eum dolorem maiores et maiores optio quo sint velit qui ratione unde qui velit corporis. Aut amet provident ut mollitia consequatur ab doloremque velit sit obcaecati harum. Ut voluptas recusandae id autem quia ut dolorem aperiam est omnis voluptatem ut numquam natus qui excepturi sapiente ut voluptatibus consectetur.</p>
+            </article>
+            <article class="atigo" id="atigo3">
+                <h2>Artigo 3</h2>
+                <p>Ut quia obcaecati aut quod ipsa et expedita nobis. Ab fuga doloremque non omnis consequatur qui iste vero.</p>
+            </article>
+        </section>
+        <section class="secao" id="secao2">
+            <article class="artigo" id="artigo4">
+                <h2>Artigo 4</h2>
+                <p>Et magnam reprehenderit aut unde voluptas aut omnis harum cum mollitia voluptatem. Ea ullam voluptatem aut mollitia earum id pariatur galisum ut sapiente ullam aut inventore nihil. Sit eveniet dolor aut dolore internos eos natus consectetur sed dolorum obcaecati non dolores repudiandae.</p>
+            </article>
+            <article class="artigo" id="artigo5">
+                <h2>Artigo 5</h2>
+                <p>Et veniam amet eum dolorem maiores et maiores optio quo sint velit qui ratione unde qui velit corporis. Aut amet provident ut mollitia consequatur ab doloremque velit sit obcaecati harum. Ut voluptas recusandae id autem quia ut dolorem aperiam est omnis voluptatem ut numquam natus qui excepturi sapiente ut voluptatibus consectetur.</p>
+            </article>
+            <article class="atigo" id="artigo6">
+                <h2>Artigo 6</h2>
+                <p>Ea eaque rerum et animi voluptate est saepe voluptas. Cum itaque ducimus eum sunt possimus a dignissimos assumenda eos necessitatibus suscipit aut facere quia.</p>
+            </article>
+        </section>
+    </div>
+    
+</body>
+</html>
